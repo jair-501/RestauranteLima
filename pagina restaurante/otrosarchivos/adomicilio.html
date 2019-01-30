@@ -1,0 +1,97 @@
+<html>
+ <head>
+  <style>
+   .fondo
+   {
+   filter:blur(6px);
+   }
+  .titulo
+  {
+   position:absolute;left:20%;top:20%;font-family:accent;font-size:40px;color:white;
+   }
+ img.fotoinicio1:hover
+ {
+ filter:blur(6px);
+ }
+  #button 
+       {
+     padding:0px;
+	 }
+   #button li
+       {
+   display:inline;
+      }
+   #button li a
+     {
+   ;font-family:Cortana;font-size:40px;text-decoration:none;float:left;padding:10px;background-color:black;color:white;
+   }
+   #button li a:hover
+   {
+   background-color:white;color:black;margin-top:-2;padding-bottom:12px;
+   }
+   
+   </style>
+   <link rel="icon" href="../imagenes/favicon.ico">
+   </head>
+   
+   <body style="background-image:url(../imagenes/fondoprincipal.jpg);background-size:cover">
+ <div class="fotoinicio">
+ <img class="fotoinicio1" src="../imagenes/fotoinicio.jpg" height="50%" width="100%"> 
+ <div class="titulo">
+  <h1>RESTAURANTE LIMA</h1>
+  </div>
+ </div>
+ <ul id="button">
+   <li><a href="../index.html" target="_self">Inicio</a></li>
+   <li><a href="menu.html" target="_self">Menus</a></li>
+   <li><a href="contactos.html">Contactos</a></li>
+   <li><a href="mapa.html" target="_self">Donde encontrarnos</a></li>
+   <li><a href="adomicilio.html">A domicilio</a></li>
+  </ul>
+  <br><br><br>
+    <h2>FORMULARIO RECOGIDA DE DATOS</h2>
+  <form action="pedido.html">
+  <div>
+  <fieldset>
+    <legend>Datos personales</legend>
+   <h3>Introduzca su nombre:</h3>
+      <input id="textos" type="text" size ="20" name="nombre"/>
+   <h3>Introduzca primer apellido:</h3>  
+	  <input id="textos" type="text" size="40" name="apellido1"/>
+   <h3>Escriba su Direccion</h3>
+      <input id="textos" type="text" size="40" name="direccion"/>
+   </fieldset>
+   <br><br>
+   <fieldset>
+    <legend><h4>Pida un menu,un plato de cada tipo y una bebida</h4></legend>
+   <h2>Entrantes</h2>
+    <input id="entrantes" type="checkbox" name="entrante1">Choritos<br>
+	<input id="entrantes" type="checkbox" name="entrante2">Papa a la huancaina<br>
+	<input id="entrantes" type="checkbox" name="entrante3">Salchipapa<br>
+	<input id="entrantes" type="checkbox" name="entrante4">Papa rellena<br>
+	<input id="entrantes" type="checkbox" name="entrante5">Anticucho<br>
+	<input id="entrantes" type="checkbox" name="entrante6">Tamal<br>
+    <h2>Plato</h2>
+	<input id="plato" type="checkbox" name="plato1">Ceviche<br>
+    <input id="plato" type="checkbox" name="plato2">Arroz chaufa<br>
+	<input id="plato" type="checkbox" name="plato3">Aji de gallina<br>
+	<input id="plato" type="checkbox" name="plato4">Lomo saltado<br>
+	<input id="plato" type="checkbox" name="plato5">Rocoto relleno<br>
+	<input id="plato" type="checkbox" name="plato6">Causa a la limeña<br>
+	<h2>Postres</h2>
+	<input id="postre" type="checkbox" name="postre1">Mazamorra morada<br>
+	<input id="postre" type="checkbox" name="postre2">Suspiro de limeña<br>
+	<input id="postre" type="checkbox" name="postre3">Picarones<br>
+	<input id="postre" type="checkbox" name="postre4">Arroz con leche<br>
+	<input id="postre" type="checkbox" name="postre5">Frejo colado<br>
+	<input id="postre" type="checkbox" name="postre6">Ranfañote<br>
+	<h2>Bebidas</h2>
+	<input id="bebida" type="checkbox" name="bebida1">Chica morada<br>
+	<input id="bebida" type="checkbox" name="bebida2">Aguajina<br>
+	<input id="bebida" type="checkbox" name="bebida3">Chicha de jora<br>
+	<br><br>
+	<h3> - 1 Menú = 11€</h3>
+	<br><br><br>
+	<input type="submit" name="envío" value="Pedir"> 
+    </form>
+   </body>   
